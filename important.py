@@ -8,12 +8,15 @@ from threading import Thread
 from urllib.parse import urlencode, quote
 from pathlib import Path
 import time, random, sys, json, codecs, re, os, shutil, requests, ast, pytz, atexit, traceback, base64, pafy, livejson, timeago, math, argparse
+from flask import Flask, request, abort
 
+########################################not necessary
 try:
     if __modified__ != 'Zero Cool':
         sys.exit('++ Error : Please use lib linepy-modified, you can find it on github')
 except Exception as e:
     sys.exit('++ Error : Please use lib linepy-modified, you can find it on github')
+#########################################
 def str2bool(v):
     if v.lower() in ('yes', 'true', 't', 'y', '1'):
         return True

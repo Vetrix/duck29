@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from important import *
 
+
+app = Flask(__name__)
 # Setup Argparse
 parser = argparse.ArgumentParser(description='Selfbot duck29')
 parser.add_argument('-t', '--token', type=str, metavar='', required=False, help='Token | Example : Exxxx')
@@ -2106,7 +2108,7 @@ def executeOp(op):
         logError(error)
 
 def runningProgram():
-   while True:
+    while True:
         try:
             ops = oepoll.singleTrace(count=50)
         except TalkException as talk_error:
@@ -2125,5 +2127,5 @@ def runningProgram():
                 oepoll.setRevision(op.revision)
 
 if __name__ == '__main__':
-   port = int(os.environ.get('PORT', 5000))
-   app.run(host='0.0.0.0', port=port)
+	port = int(os.environ.get('PORT', 5000))
+	app.run(host='0.0.0.0', port=port)
