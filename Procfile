@@ -1,1 +1,1 @@
-bot: python duck29.py
+bot: python helloworld.py
