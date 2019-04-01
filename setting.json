@@ -1,0 +1,53 @@
+{
+    "autoAdd": {
+        "status": false,
+        "message": "Hello @!, thanks for add me as your friend",
+        "reply": true
+    },
+    "autoJoin": {
+        "status": false,
+        "message": "Hello @!, thanks for invite me to this group",
+        "reply": true,
+        "ticket": false
+    },
+    "autoRead": false,
+    "autoRespond": {
+        "status": false,
+        "message": "Hello @!, thanks for your message this is auto respond"
+    },
+    "autoRespondMention": {
+        "status": true,
+        "message": "Hello @!, thanks for mentioned me, if your message is very important please leave it on personal chat\n"
+    },
+    "changeGroupPicture": [],
+    "changePictureProfile": false,
+    "changeCoverPicture": false,
+    "checkContact": false,
+    "checkPost": false,
+    "checkSticker": false,
+    "defaultReplyReader" : "Hello @!, come here join to chat",
+    "greet": {
+        "join": {
+            "status": true,
+            "message": "Hello @!, welcome to group {name}"
+        },
+        "leave": {
+            "status": false,
+            "message": "Good bye @!, see you next time"
+        }
+    },
+    "myProfile": {
+        "coverId": "",
+        "displayName": "",
+        "pictureStatus": "",
+        "statusMessage": ""
+    },
+    "mimic": {
+        "status": false,
+        "target": {}
+    },
+    "setKey": {
+        "status": true,
+        "key": "."
+    },
+}
