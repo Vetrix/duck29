@@ -1,1 +1,1 @@
-web: python duck29.py
+bot: python duck29.py
