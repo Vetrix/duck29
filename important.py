@@ -8,7 +8,7 @@ from threading import Thread
 from urllib.parse import urlencode, quote
 from pathlib import Path
 import time, random, sys, json, codecs, re, os, shutil, requests, ast, pytz, atexit, traceback, base64, pafy, livejson, timeago, math, argparse
-from flask import Flask, request, abort
+
 
 ########################################not necessary
 try:
