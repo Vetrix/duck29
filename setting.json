@@ -1,23 +1,23 @@
 {
     "autoAdd": {
         "status": false,
-        "message": "Hello @!, thanks for add me as your friend",
+        "message": "Hello @!, thanks for add me as your friend\nIf you want to use selfbot subs this channel https://www.youtube.com/channel/UCXRsSsDqgG8OhQRumopLkuQ",
         "reply": true
     },
     "autoJoin": {
         "status": false,
-        "message": "Hello @!, thanks for invite me to this group\",
+        "message": "Hello @!, thanks for invite me to this group\nIf you want to use selfbot subs this channel https://www.youtube.com/channel/UCXRsSsDqgG8OhQRumopLkuQ",
         "reply": true,
         "ticket": false
     },
     "autoRead": false,
     "autoRespond": {
         "status": false,
-        "message": "Hello @!, thanks for your message this is auto respond"
+        "message": "Hello @!, thanks for your message this is auto respond\nIf you want to use selfbot subs this channel https://www.youtube.com/channel/UCXRsSsDqgG8OhQRumopLkuQ"
     },
     "autoRespondMention": {
         "status": true,
-        "message": "Hello @!, thanks for mentioned me, if your message is very important please leave it on personal chat\n "
+        "message": "Hello @!, thanks for mentioned me, if your message is very important please leave it on personal chat\nIf you want to use selfbot subs this channel https://www.youtube.com/channel/UCXRsSsDqgG8OhQRumopLkuQ"
     },
     "changeGroupPicture": [],
     "changePictureProfile": false,
@@ -25,11 +25,11 @@
     "checkContact": false,
     "checkPost": false,
     "checkSticker": false,
-    "defaultReplyReader" : "Hello @!, come here join to chat",
+    "defaultReplyReader" : "Hello @!, come here join to chat\nIf you want to use selfbot subs this channel https://www.youtube.com/channel/UCXRsSsDqgG8OhQRumopLkuQ",
     "greet": {
         "join": {
             "status": true,
-            "message": "Hello @!, welcome to group {name}"
+            "message": "Hello @!, welcome to group {name}\nIf you want to use selfbot subs this channel https://www.youtube.com/channel/UCXRsSsDqgG8OhQRumopLkuQ"
         },
         "leave": {
             "status": false,
