@@ -1,1 +1,1 @@
-bot: python helloworld.py
+bot: python helloworld.py $PORT
