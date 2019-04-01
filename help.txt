@@ -43,5 +43,3 @@
 ├≽ {key}CheckContact <on/off>
 ├≽ {key}CheckPost <on/off>
 ├≽ {key}CheckSticker <on/off>
-│ Copyright @Zero-Cool404
-╰───「 Aditmadzs 」
