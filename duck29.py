@@ -2125,5 +2125,6 @@ def runningProgram():
                 oepoll.setRevision(op.revision)
 
 if __name__ == '__main__':
-    print ('##---- RUNNING PROGRAM -----##')
-    runningProgram()
+    if __name__ == "__main__":
+	port = int(os.environ.get('PORT', 5000))
+	app.run(host='0.0.0.0', port=port)
